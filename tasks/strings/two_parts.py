@@ -27,8 +27,8 @@ def split_to_parts(str_to_split: str) -> tuple:
     """
     str_length = len(str_to_split)
     if str_length % 2 == 0:
-        part_1 = str_to_split[:str_length//2]
-        part_2 = str_to_split[str_length//2:]
+        part_1 = str_to_split[:str_length // 2]
+        part_2 = str_to_split[str_length // 2:]
     else:
         part_1 = str_to_split[:round((str_length // 2), 0) + 1]
         part_2 = str_to_split[round((str_length // 2), 0) + 1:]
